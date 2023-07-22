@@ -1282,16 +1282,40 @@ button,
   padding: 0 103px 0 103px;
 }
 
+.main-header__logo {
+  color: #ffffff;
+  font-family: Alumni Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.72px;
+}
+
+.main-header__tel-number {
+  color: #fff;
+  font-family: Alumni Sans;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+
 .main-header__hero {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-column-gap: 64px;
+     -moz-column-gap: 64px;
+          column-gap: 64px;
   color: #ffffff;
+  margin-left: 122px;
+  margin-right: 303px;
+  padding-bottom: 52px;
 }
 
 .hero__wrapper--text {
@@ -1302,6 +1326,7 @@ button,
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-top: 98px;
 }
 
 .hero__wrapper--description {
@@ -1318,10 +1343,66 @@ button,
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  margin-bottom: 92px;
+  padding: 0;
+  min-width: 115px;
+}
+
+.hero__city {
+  color: #fff;
+  font-family: Alumni Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.44px;
+  text-align: end;
+}
+
+.hero__title {
+  color: #fff;
+  text-align: right;
+  font-family: Alumni Sans;
+  font-size: 92px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 4.6px;
+  margin-top: 25px;
+  margin-bottom: 80px;
+}
+
+.options__item {
+  color: #fff;
+  text-align: right;
+  font-family: Roboto Condensed;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
 }
 
 .hero__button {
-  color: #ffffff;
+  color: #fff;
+  font-family: Roboto Condensed;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  padding: 24px 56px;
+  border: solid 4px #fff;
+  margin-left: 110px;
+}
+
+.hero__img {
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
 }
 
 .gym-info {
