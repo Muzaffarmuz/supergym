@@ -1,0 +1,25 @@
+.main-index__hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: #ffffff;
+  background-image: url("../../img/hero-gradient.png");
+}
+
+.hero__wrapper--text {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__wrapper--description {
+  display: flex;
+}
+
+.hero__options {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__button {
+  color: #ffffff;
+}
