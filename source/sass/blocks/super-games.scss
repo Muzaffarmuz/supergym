@@ -3,3 +3,25 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
+.super-games__text-wrapper {
+  background-color: #ed0233;
+  display: flex;
+  flex-direction: column;
+}
+
+.super-games__info-wrapper {
+  display: flex;
+  column-gap: 50px;
+}
+
+.super-games__title {
+  color: #fff;
+  text-align: center;
+  font-family: Alumni Sans;
+  font-size: 82px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 96%; /* 78.72px */
+  letter-spacing: 2.46px;
+}

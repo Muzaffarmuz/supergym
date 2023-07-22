@@ -1,8 +1,53 @@
 .gym-info {
   display: flex;
+  justify-content: space-between;
+  gap: 85px;
+  margin: 0;
+  margin-bottom: 235px;
 }
 
 .gym-info__text {
   display: flex;
   flex-direction: column;
+  width: 355px;
+}
+
+.gym-info__title {
+  color: #102654;
+  font-family: Alumni Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.44px;
+  margin: 0;
+  margin-bottom: 25px;
+  margin-top: 170px;
+}
+
+.gym-info__square {
+  color: #102654;
+  font-family: Roboto Condensed;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin: 0;
+  margin-bottom: 55px;
+}
+
+.gym-info__supergym,
+.gym-info__zones {
+  color: #102654;
+  font-family: Roboto Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+  margin: 0;
+}
+
+.gym-info__media {
+  margin: 0;
+  margin-top: 120px;
 }

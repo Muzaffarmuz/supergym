@@ -396,7 +396,6 @@ a {
 img,
 video {
   display: block;
-  max-width: 100%;
   height: auto;
 }
 
@@ -1251,14 +1250,14 @@ button,
 
 .page__body {
   min-height: 100%;
-  max-width: 1200px;
+  max-width: 1366px;
   margin: 0 auto;
   background-color: #ffffff;
   color: #000000;
 }
 
 .main-header {
-  width: 1200px;
+  max-width: 1366px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1409,6 +1408,12 @@ button,
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 85px;
+  margin: 0;
+  margin-bottom: 235px;
 }
 
 .gym-info__text {
@@ -1419,6 +1424,47 @@ button,
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  width: 355px;
+}
+
+.gym-info__title {
+  color: #102654;
+  font-family: Alumni Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.44px;
+  margin: 0;
+  margin-bottom: 25px;
+  margin-top: 170px;
+}
+
+.gym-info__square {
+  color: #102654;
+  font-family: Roboto Condensed;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin: 0;
+  margin-bottom: 55px;
+}
+
+.gym-info__supergym,
+.gym-info__zones {
+  color: #102654;
+  font-family: Roboto Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+  margin: 0;
+}
+
+.gym-info__media {
+  margin: 0;
+  margin-top: 120px;
 }
 
 .subscription {
@@ -1433,6 +1479,29 @@ button,
       -ms-flex-pack: center;
           justify-content: center;
   margin: 0 auto;
+  background-color: #f8f9fc;
+}
+
+.subscription__title {
+  color: #102654;
+  font-family: Alumni Sans;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.62px;
+  margin: 0 auto;
+  margin-top: 120px;
+  margin-bottom: 25px;
+}
+
+.pagination__link {
+  color: #102654;
+  font-family: Roboto Condensed;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
 }
 
 .subscription__pagination {
@@ -1445,6 +1514,9 @@ button,
       -ms-flex-pack: center;
           justify-content: center;
   list-style: none;
+  -webkit-column-gap: 46px;
+     -moz-column-gap: 46px;
+          column-gap: 46px;
 }
 
 .subscription__cards {
@@ -1456,6 +1528,11 @@ button,
       flex-wrap: wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -webkit-column-gap: 40px;
+     -moz-column-gap: 40px;
+          column-gap: 40px;
+  margin: 0;
+  margin-bottom: 120px;
 }
 
 .cards__item {
@@ -1466,6 +1543,58 @@ button,
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  background-color: #ffffff;
+  width: 360px;
+  text-align: center;
+}
+
+.cards__title {
+  color: #102654;
+  text-align: center;
+  font-family: Roboto Condensed;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+  margin-top: 68px;
+  margin-bottom: 22px;
+}
+
+.cards__info {
+  color: #102654;
+  font-family: Roboto Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin: 0;
+  margin-bottom: 96px;
+}
+
+.cards__price {
+  color: #103aae;
+  font-family: Roboto Condensed;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  margin: 0;
+  margin-bottom: 60px;
+}
+
+.cards__buy-button {
+  color: #102654;
+  font-family: Roboto Condensed;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  padding: 27px 44px;
+  border: 2px solid #102654;
+  margin: 0 auto;
+  margin-bottom: 68px;
 }
 
 .super-games {
@@ -1477,6 +1606,37 @@ button,
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.super-games__text-wrapper {
+  background-color: #ed0233;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.super-games__info-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 50px;
+     -moz-column-gap: 50px;
+          column-gap: 50px;
+}
+
+.super-games__title {
+  color: #fff;
+  text-align: center;
+  font-family: Alumni Sans;
+  font-size: 82px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 96%; /* 78.72px */
+  letter-spacing: 2.46px;
 }
 
 .coaches__list {
