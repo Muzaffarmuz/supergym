@@ -1262,13 +1262,27 @@ button,
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: conic-gradient(from 151deg at 16.03% 39.06%, #003d85 32.2363382578deg, #b80027 313.3060026169deg);
+  background-image: url("../../img/hero-gradient.png");
+}
+
+.main-header__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 0 103px 0 103px;
 }
 
-.main-index__hero {
+.main-header__hero {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1278,7 +1292,6 @@ button,
       -ms-flex-pack: justify;
           justify-content: space-between;
   color: #ffffff;
-  background-image: url("../../img/hero-gradient.png");
 }
 
 .hero__wrapper--text {
