@@ -1,0 +1,62 @@
+.promotion__wrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.promotion__title {
+  color: #102654;
+  font-family: Alumni Sans;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.62px;
+  margin: 0 auto;
+  margin-top: 135px;
+  text-align: center;
+}
+
+.promotion__year {
+  background-color: #ed0233;
+  padding: 45px;
+  color: #ffffff;
+}
+
+.year__title {
+  font-family: Roboto Condensed;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 156%;
+  margin: 0;
+}
+
+.year__price {
+  font-family: Roboto Condensed;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 156%;
+  margin: 0;
+}
+
+.year__description {
+  font-family: Roboto Condensed;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  margin: 0;
+}
+
+.year__link {
+  color: #fff;
+  font-family: Roboto Condensed;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}

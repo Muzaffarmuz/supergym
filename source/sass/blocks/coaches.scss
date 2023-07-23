@@ -1,5 +1,19 @@
+.main-index__coaches {
+  margin: 0 105px;
+}
+
 .coaches__list {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+}
+
+.coaches__title {
+  color: #102654;
+  font-family: Alumni Sans;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.62px;
 }
