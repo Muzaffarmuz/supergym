@@ -1,6 +1,7 @@
 .promotion__wrapper {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 40px;
 }
 
 .promotion__title {
@@ -20,6 +21,7 @@
   background-color: #ed0233;
   padding: 45px;
   color: #ffffff;
+  grid-row: 1/3;
 }
 
 .year__title {
@@ -59,4 +61,44 @@
   letter-spacing: 0.7px;
   text-transform: uppercase;
   text-decoration: underline;
+}
+
+.promo-item {
+  padding: 35px;
+  grid-column: 3/5;
+  position: relative;
+}
+
+.promo-item__border {
+  position: absolute;
+  z-index: -1;
+}
+
+.promo-item__title {
+  color: #1c3374;
+  font-family: Roboto Condensed;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.promo-item__description {
+  color: #1c3374;
+  font-family: Roboto Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.promo-item__link {
+  color: #1c3374;
+  font-family: Roboto Condensed;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
 }
