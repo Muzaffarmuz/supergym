@@ -1,0 +1,44 @@
+.footer__contacts {
+  padding-top: 56px;
+  padding-left: 120px;
+}
+
+.contacts__title {
+  color: #102654;
+  font-family: Alumni Sans;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.62px;
+  margin: 0;
+  margin-bottom: 43px;
+}
+
+.contacts__list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  list-style: none;
+  column-gap: 120px;
+  row-gap: 30px;
+}
+
+.contacts__item-title {
+  color: #102654;
+  font-family: Roboto Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.contacts__item-data {
+  color: #102654;
+  font-family: Roboto Condensed;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 152.344%;
+}

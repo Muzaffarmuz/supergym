@@ -406,26 +406,28 @@
     <footer class="main-footer footer">
       <div class="footer__free-workout free-workout">
         <h2 class="free-workout__title">Бесплатное занятие</h2>
-        <input
-          class="free-workout__input"
-          type="text"
-          name="name"
-          id="name"
-          placeholder="Имя"
-        />
-        <input
-          class="free-workout__input"
-          type="number"
-          name="tel-number"
-          id="tel-number"
-          placeholder="Телефон"
-        />
-        <button
-          class="free-workout__button button free-workout__button--submit"
-          type="submit"
-        >
-          Отправить
-        </button>
+        <div class="free-workout__wrapper">
+          <input
+            class="free-workout__input"
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Имя"
+          />
+          <input
+            class="free-workout__input"
+            type="number"
+            name="tel-number"
+            id="tel-number"
+            placeholder="Телефон"
+          />
+          <button
+            class="free-workout__button button free-workout__button--submit"
+            type="submit"
+          >
+            Отправить
+          </button>
+        </div>
       </div>
       <div class="footer__contacts contacts">
         <h2 class="contacts__title">Контакты</h2>
@@ -473,19 +475,35 @@
           <li class="socials__item socials__item--vk">
             <a href="#">
               <span class="visually-hidden">В контакте</span>
-              <!-- ТУТ СВГ -->
+              <svg
+                class="socials__svg"
+                width="25"
+                height="25"
+                viewBox="0 0 25 25"
+              >
+                <use href="img/sprite.svg#vk"></use>
+              </svg>
             </a>
           </li>
           <li class="socials__item socials__item--ok">
             <a href="#">
               <span class="visually-hidden">Одноклассники</span>
-              <!-- ТУТ СВГ -->
+              <svg class="icon" width="25" height="25" viewBox="0 0 25 25">
+                <use href="img/sprite.svg#ok"></use>
+              </svg>
             </a>
           </li>
           <li class="socials__item socials__item--reddit">
             <a href="#">
               <span class="visually-hidden">Реддит</span>
-              <!-- ТУТ СВГ -->
+              <svg
+                class="socials__svg"
+                width="25"
+                height="25"
+                viewBox="0 0 25 25"
+              >
+                <use href="img/sprite.svg#reddit"></use>
+              </svg>
             </a>
           </li>
         </ul>

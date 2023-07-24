@@ -1,0 +1,40 @@
+.footer__links {
+  display: flex;
+  grid-column: 1/-1;
+  justify-content: space-between;
+  background-color: #030a1a;
+  padding: 44px 104px 32px;
+}
+
+.links__logo {
+  margin: 0;
+  color: #fff;
+  font-family: Alumni Sans;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.52px;
+  align-self: center;
+}
+
+.links__list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  column-gap: 40px;
+}
+
+.links__link {
+  color: #fff;
+}
+
+.footer__socials {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  color: #fff;
+  justify-content: space-between;
+  column-gap: 11px;
+}
