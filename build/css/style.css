@@ -396,7 +396,7 @@ a {
 img,
 video {
   display: block;
-  height: auto;
+  max-width: 100%;
 }
 
 textarea {
@@ -561,24 +561,18 @@ button,
 }
 
 .container {
-  width: 100%;
-  max-width: 1920px;
+  max-width: 1366px;
+  padding: 0 101px 0 103px;
   margin: 0 auto;
-  padding: 0 40px;
 }
-@media (max-width: 1439px) {
+@media (max-width: 1199.5px) {
   .container {
-    padding: 0 32px;
+    padding: 0 45px;
   }
 }
-@media (max-width: 1023px) {
+@media (max-width: 767.5px) {
   .container {
-    padding: 0 24px;
-  }
-}
-@media (max-width: 767px) {
-  .container {
-    padding: 0 16px;
+    padding: 0 15px;
   }
 }
 
@@ -660,7 +654,7 @@ button,
   min-height: 100%;
   padding: 60px 40px;
 }
-@media (max-width: 767px) {
+@media (max-width: 767.5px) {
   .modal__wrapper {
     padding: 60px 16px;
   }
@@ -679,7 +673,7 @@ button,
   padding: 40px;
   background-color: #ffffff;
 }
-@media (max-width: 767px) {
+@media (max-width: 767.5px) {
   .modal__content {
     width: 100%;
     padding: 20px;
@@ -703,7 +697,7 @@ button,
 .modal--fit-content .modal__content {
   width: auto;
 }
-@media (max-width: 767px) {
+@media (max-width: 767.5px) {
   .modal--fit-content .modal__content {
     width: 100%;
   }
@@ -1265,8 +1259,7 @@ button,
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: conic-gradient(from 151deg at 16.03% 39.06%, #003d85 32.2363382578deg, #b80027 313.3060026169deg);
-  background-image: url("../../img/hero-gradient.png");
+  background: conic-gradient(from 151deg at 16.03% 39.06%, #003d85 32.24deg, #b80027 304deg, #003d85 360deg);
 }
 
 .main-header__wrapper {
@@ -1414,6 +1407,8 @@ button,
   gap: 85px;
   margin: 0;
   margin-bottom: 235px;
+  padding-left: 163px;
+  padding-right: 103px;
 }
 
 .gym-info__text {
